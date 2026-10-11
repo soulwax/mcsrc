@@ -12,7 +12,8 @@
     "test:e2e:ui": "playwright test --ui",
     "test:e2e:debug": "playwright test --debug",
     "lint": "oxlint --type-aware --deny-warnings",
-    "lint:fix": "oxlint --fix --type-aware --deny-warnings"
+    "lint:fix": "oxlint --fix --type-aware --deny-warnings",
+    "decompile": "node scripts/decompile.mjs"
   },
   "overrides": {
     "@babel/plugin-transform-runtime": "7.29.0"
